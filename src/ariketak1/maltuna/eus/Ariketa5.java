@@ -1,4 +1,5 @@
 package ariketak1.maltuna.eus;
+import java.util.*;
 
 public class Ariketa5 {
 
@@ -29,6 +30,7 @@ public class Ariketa5 {
 		}
 		//OUTPUT
 		System.out.println ("handiena: "+handiena+" da");
+		sc.close();
 	}
 
 }
