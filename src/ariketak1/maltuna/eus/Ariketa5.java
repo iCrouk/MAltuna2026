@@ -22,10 +22,8 @@ public class Ariketa5 {
 		znb2 = sc.nextInt();
 		
 		if( znb1 < znb2) {
-			//System.out.println ("handiena: "+znb2+" da");
 			handiena = znb2;
 		} else {
-			//System.out.println ("handiena: "+znb1+" da");
 			handiena = znb1;
 		}
 		//OUTPUT
