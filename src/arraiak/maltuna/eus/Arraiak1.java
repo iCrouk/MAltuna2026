@@ -2,7 +2,7 @@
  * 
  */
 package arraiak.maltuna.eus;
-
+import java.util.*;
 /**
  * 
  */
@@ -13,7 +13,7 @@ public class Arraiak1 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] nireArraia;
+		int[] nireArraia = new int[10];
 
 	}
 
