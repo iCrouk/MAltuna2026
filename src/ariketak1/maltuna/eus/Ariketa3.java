@@ -1,13 +1,13 @@
-/**
- * 
- */
 package ariketak1.maltuna.eus;
+import java.util.Scanner;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
 /**
  * 
  */
+
 public class Ariketa3 {
 
 	/**
@@ -15,6 +15,7 @@ public class Ariketa3 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		
 	Scanner nireSc = new Scanner(System.in);
 		
