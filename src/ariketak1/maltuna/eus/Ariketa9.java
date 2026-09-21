@@ -1,13 +1,13 @@
 package ariketak1.maltuna.eus;
 
-
-public class Ariketa8 {
+public class Ariketa9 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		for (int i =1; i<11;i++) {
+		int i=1;
+		do {
 			System.out.println(i);
-		}
+			i++;
+		}while (i<11);
 	}
 }
