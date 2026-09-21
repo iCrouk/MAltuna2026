@@ -1,8 +1,6 @@
 package ariketak1.maltuna.eus;
 import java.util.Scanner;
 
-<<<<<<< HEAD
-import java.util.Scanner;
 
 /**
  * 
