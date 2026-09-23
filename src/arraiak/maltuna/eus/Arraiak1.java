@@ -23,6 +23,21 @@ public class Arraiak1 {
 	System.out.println(nireArraia[2]); 
 	
 	int[] nireZenbakiak = {5,6,74,2,1,77};
+	//for normal batekin
+	for (int i=0; i< nireZenbakiak.length;i++) {
+		System.out.println(nireZenbakiak[i]);
+		
+	}
+	// do-while egitura batekin
+	int i=0;
+	do {
+		System.out.println(nireZenbakiak[i]);
+	}
+	while(i<nireZenbakiak.length);
+	//foreach egitura batekin
+	for (int n : nireZenbakiak) {
+		System.out.println(n);
+	}
 	
 	}
 
