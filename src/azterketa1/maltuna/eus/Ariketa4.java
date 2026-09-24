@@ -18,6 +18,7 @@ public class Ariketa4 {
 			i++;	
 		}while(i<1000);
 		/*
+		 * For egitura batkin.
 		for (int i = 1;i<1000;i++) {
 			if (i%7 == 0) {
 				if (i%2 == 0) {
