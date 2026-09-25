@@ -48,7 +48,5 @@ public class Ariketa2 {
 		}else {
 			System.out.println("BB: "+(double) bb/kopurua);
 		}
-
 	}
-
 }
