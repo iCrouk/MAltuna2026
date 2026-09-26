@@ -2,7 +2,7 @@
  * 
  */
 package arraiak.maltuna.eus;
-import java.util.*;
+//import java.util.*;
 /**
  * 
  */
