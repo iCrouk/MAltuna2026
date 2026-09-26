@@ -19,6 +19,7 @@ public class Ariketa1 {
 				 * Beste kasu guztietan balioak eskatzen jarraitu behar dugu
 				 */
 				while (asteakoEguna < 1  || asteakoEguna > 7) {
+			
 					System.out.println("Idatzi zenbaki bat 1 eta 7 aretan, mesedez");
 					asteakoEguna = sc.nextInt();
 				}

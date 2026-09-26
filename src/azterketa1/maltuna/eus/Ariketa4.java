@@ -9,10 +9,10 @@ public class Ariketa4 {
 		int biderketa = 1;
 		
 		do {
-			if (i%7 == 0) {
+			if (i%7 == 0 ) {
 				if (i%2 == 0) {
-					batuketa += i;
-					biderketa *= i;
+					batuketa += i; // batuketa = batuketa +i;
+					biderketa *= i;// biderketa = biderketa *i;
 				}
 			}
 			i++;	
