@@ -12,37 +12,37 @@ public class Ariketak1 {
 		Scanner sc = new Scanner(System.in);
 		
 		//Nire Aldagaiak deklatau eta hasieratu
-        String testua;
-        int letKop = 0;
-        int digKop = 0;
-        int zuriKop = 0;
+        String myText;
+        int letters= 0;
+        int digits = 0;
+        int blanks = 0;
         char zuriUne = ' ';
         
        
         //Esaldia idazteko eskaera egin eta teklatukoa gorde
         System.out.println("Idatzi testu bat:");
-        testua = sc.nextLine();
+        myText = sc.nextLine();
         
         /*Errepikapen bloke batekin Esaldia karakterretan zatitu eta  bakoitza ebaluaryko dugu.
          * Kontagailua ri 1 gehitu berdintza bat betetzen duen momentuan
          * */
-        for (int i = 0; i < testua.length(); i++) {
+        for (int i = 0; i < myText.length(); i++) {
 
-            char karakterea = testua.charAt(i);
+            char eachCharacter = myText.charAt(i);
 
-            if (Character.isLetter(karakterea)) {
-                letKop++;
-            } else if (Character.isDigit(karakterea)) {
-                digKop++;
-            } else if (karakterea == zuriUne) {
-                zuriKop++;
+            if (Character.isLetter(eachCharacter)) {
+                letters++;
+            } else if (Character.isDigit(eachCharacter)) {
+                digits++;
+            } else if (eachCharacter == zuriUne) {
+                blanks++;
             }
         }
         //Emaitzak pantailaratu
         System.out.println("---------------------------------");
-        System.out.println("Letra kopurua: " + letKop + " da");
-        System.out.println("Digitu kopurua: " + digKop+ " da");
-        System.out.println("Zuriune kopurua: " + zuriKop+ " da");
+        System.out.println("Letra kopurua: " + letters + " da");
+        System.out.println("Digitu kopurua: " + digits+ " da");
+        System.out.println("Zuriune kopurua: " + blanks+ " da");
         System.out.println("---------------------------------");
         
         //Scanner instantzia itxi
