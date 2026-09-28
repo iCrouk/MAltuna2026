@@ -27,6 +27,7 @@ puntu bat dituen, contains() eta indexOf() erabiliz.
 		boolean atCorrect = false;
 		boolean dotCorrect = false;
 		
+		if (myEmail.contains("@") && myEmail.contains(".")){
 		for (int i=0;i<myEmail.length();i++) {
 			char myCharacter = myEmail.charAt(i);
 			
@@ -37,6 +38,7 @@ puntu bat dituen, contains() eta indexOf() erabiliz.
 			if (myCharacter == '.') {
 				dotCount++;
 			}
+		}
 		}
 		
 		if (atCounter !=0) {
