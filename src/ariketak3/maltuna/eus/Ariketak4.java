@@ -18,7 +18,7 @@ public class Ariketak4 {
         System.out.println("Idatzi hitz bat, mesedez:");
         String testua = mySc.nextLine().trim().toLowerCase();
 
-        boolean palindromoa = true;
+        boolean palindrom = true;
 
         for (int i = 0; i < testua.length() / 2; i++) {
 
@@ -26,11 +26,11 @@ public class Ariketak4 {
             char rightToLeft = testua.charAt(testua.length() - 1 - i);
 
             if (leftToRight != rightToLeft) {
-                palindromoa = false;
+                palindrom = false;
             }
         }
 
-        if (palindromoa) {
+        if (palindrom) {
             System.out.println("Testua palindromoa da.");
         } else {
             System.out.println("Testua ez da palindromoa.");
