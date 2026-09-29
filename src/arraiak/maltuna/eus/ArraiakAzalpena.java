@@ -6,7 +6,7 @@ package arraiak.maltuna.eus;
 /**
  * 
  */
-public class Arraiak1 {
+public class ArraiakAzalpena {
 
 	/**
 	 * @param args
