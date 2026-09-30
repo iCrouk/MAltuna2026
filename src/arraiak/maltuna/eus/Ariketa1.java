@@ -8,6 +8,9 @@ public class Ariketa1 {
 		
 		nireZenbakiak[1]=65;
 		
+		for(int i=0;i< nireZenbakiak.length; i++) {
+			nireZenbakiak[i] = i;
+		}
 	}
 
 }
