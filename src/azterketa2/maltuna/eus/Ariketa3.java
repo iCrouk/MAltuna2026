@@ -18,7 +18,6 @@ public class Ariketa3 {
 		
 		urtea = urtea/100;
 		
-		System.out.println (urtea);
 		int emaitza = 1;
 		
 		for (int j=1; j<=urtea;j++){
