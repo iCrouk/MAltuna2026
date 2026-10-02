@@ -13,6 +13,7 @@ public class Ariketa4 {
 				batu+=i;
 				bider*=i;
 			}
+			i++;
 		}while (i<=500);
 		
 		System.out.println("batuketaren emaitza: "+batu);

@@ -29,7 +29,7 @@ public class Ariketa1 {
 			case 5:System.out.println("Maiatza");break;
 			case 6:System.out.println("Ekaina");break;
 			case 7:System.out.println("Uztaila");break;
-			case 8:System.out.println("Abuztua");break;
+			//case 8:System.out.println("Abuztua");break;
 			case 9:System.out.println("Iraila");break;
 			case 10:System.out.println("Urria");break;
 			case 11:System.out.println("Azaroa");break;

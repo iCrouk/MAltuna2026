@@ -6,6 +6,7 @@ public class Ariketa3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner mySc = new Scanner(System.in);
+		System.out.println("idatzi urte bat,mesedez");
 		int urtea = mySc.nextInt();
 		boolean bis = false;
 		mySc.close();
@@ -23,6 +24,8 @@ public class Ariketa3 {
 		for (int j=1; j<=urtea;j++){
 			emaitza*=j;
 		}
+		
+
 		System.out.println (emaitza);
 		
 		
